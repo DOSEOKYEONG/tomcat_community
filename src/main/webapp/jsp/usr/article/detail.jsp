@@ -6,7 +6,6 @@
         <h1 class="font-bold text-lg">게시물 상세페이지</h1>
 
         <div>
-            <% if ( article != null ) { %>
             <div>
                 ID : ${article.id}
             </div>
@@ -16,7 +15,6 @@
             <div>
                 BODY : ${article.body}
             </div>
-            <% } %>
         </div>
     </div>
 </section>
