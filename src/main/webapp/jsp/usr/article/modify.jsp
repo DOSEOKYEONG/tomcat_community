@@ -27,6 +27,9 @@
 </script>
 <form method="POST" onsubmit="ArticleSave__submitForm(this); return false;">
     <div>
+        <span>번호 : <%=article.getId()%></span>
+    </div>
+    <div>
         <span>제목</span>
         <div>
             <input name="title" type="text" maxlength="50" placeholder="제목을 입력해주세요" value=<%=article.getTitle()%>>
@@ -41,9 +44,9 @@
     </div>
 
     <div>
-        <span>작성</span>
+        <span>수정</span>
         <div>
-            <input type="submit" value="작성" >
+            <input type="submit" value="수정" >
         </div>
     </div>
 </form>

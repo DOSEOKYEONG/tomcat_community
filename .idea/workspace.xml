@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8d3f15c8-529b-4af8-9cf5-c8bc3dd6d18d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/DispatchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/DispatchServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/Rq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/Rq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/article/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/article/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/article/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/article/ArticleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ll/exam/article/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ll/exam/article/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/usr/article/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/usr/article/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/usr/article/write.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/usr/article/write.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/usr/article/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/usr/article/modify.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +96,7 @@
       <workItem from="1658727859825" duration="4558000" />
       <workItem from="1658812182455" duration="9248000" />
       <workItem from="1658881353949" duration="87000" />
-      <workItem from="1658884808743" duration="4907000" />
+      <workItem from="1658884808743" duration="7375000" />
     </task>
     <servers />
   </component>
