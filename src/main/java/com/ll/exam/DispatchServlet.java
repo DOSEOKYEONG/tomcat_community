@@ -23,24 +23,34 @@ public class DispatchServlet extends HttpServlet {
 
         ArticleController articleController = new ArticleController();
 
-        String Uri = req.getRequestURI();
-
         switch (rq.getMethod()){
             case "GET":
-                switch (Uri) {
-                    case "/usr/article/list/free":
+                switch (rq.getActionPath()) {
+                    case "/usr/article/list":
                         articleController.showList(rq);
                         break;
-                    case "/usr/article/write/free":
+                    case "/usr/article/write":
                         articleController.showWrite(rq);
+                        break;
+                    case "/usr/article/detail":
+                        articleController.showDetail(rq);
+                        break;
+                    case "/usr/article/delete":
+                        articleController.doDelete(rq);
+                        break;
+                    case "/usr/article/modify":
+                        articleController.showModify(rq);
                         break;
                 }
                 break;
 
             case "POST":
-                switch (Uri) {
-                    case "/usr/article/list/free":
+                switch (rq.getActionPath()) {
+                    case "/usr/article/write":
                         articleController.doWrite(rq);
+                        break;
+                    case "/usr/article/modify":
+                        articleController.doModify(rq);
                         break;
                 }
             break;

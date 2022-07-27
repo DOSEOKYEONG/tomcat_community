@@ -18,4 +18,16 @@ public class ArticleService {
     public List<ArticleDto> getList() {
         return articleRepository.getList();
     }
+
+    public ArticleDto findById(long id) {
+        return articleRepository.findById(id);
+    }
+
+    public long delete(long id) {
+        return articleRepository.delete(id);
+    }
+
+    public long modify(long id, String title, String body) {
+        return articleRepository.modify(id, title, body);
+    }
 }

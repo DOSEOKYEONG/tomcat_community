@@ -1,6 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<body>
-<h1>게시글 작성</h1>
+<%@ page import="java.util.List" %>
+<%@ page import="com.ll.exam.article.Dto.ArticleDto" %>
+
+<%
+    ArticleDto article = (ArticleDto) request.getAttribute("articleDto");
+%>
+
+<h1>게시물 수정페이지</h1>
+
 <script>
     function ArticleSave__submitForm(form){
         form.title.value.trim();
@@ -22,14 +29,14 @@
     <div>
         <span>제목</span>
         <div>
-            <input name="title" type="text" maxlength="50" placeholder="제목을 입력해주세요">
+            <input name="title" type="text" maxlength="50" placeholder="제목을 입력해주세요" value=<%=article.getTitle()%>>
         </div>
     </div>
 
     <div>
         <span>내용</span>
         <div>
-            <input name="body" type="text" maxlength="3000" placeholder="내용을 입력해주세요">
+            <input name="body" type="text" maxlength="3000" placeholder="내용을 입력해주세요" value=<%=article.getBody()%>>
         </div>
     </div>
 
